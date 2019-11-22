@@ -16,12 +16,13 @@ import SignInPage from '../SignIn';
 const App = () => (
   <Router>
     <div>
-      <Navigation />
-      <Route exact path={ROUTES.HOME} component={HomePage} />
-      <Route path={ROUTES.ANOTHER_PAGE} component={AnotherPage} />
-      <Route path={ROUTES.SECURED_PAGE} component={SecuredPage} />
-      <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
-		  <Route path={ROUTES.SIGN_IN} component={SignInPage} />
+      	<Navigation />
+	
+      	<Route exact path={ROUTES.HOME} component={HomePage} />
+      	<Route path={ROUTES.ANOTHER_PAGE} component={AnotherPage} />
+      	<Route path={ROUTES.SECURED_PAGE} component={SecuredPage} />
+      	<Route path={ROUTES.SIGN_UP} component={SignUpPage} />
+	<Route path={ROUTES.SIGN_IN} component={SignInPage} />
     </div>
   </Router>
 );
